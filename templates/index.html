@@ -1,0 +1,95 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="styleshhet" href="apps/css/nth1.css"> -->
+    <link rel="stylesheet" href="{% static 'css\vsu.css' %}">
+    <title>NTH APP</title>
+    <script src="https://kit.fontawesome.com/16da190260.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="bg" style=" background-image: url('{% static "images/vsu.jpg "%}');">
+    
+    <nav class="navbar navbar-expand-lg  navbar-bg-info">
+        <img src="{% static 'images/vsulogo.jpg' %}"  style="border-radius: 90%;width: 100px;height: 50px;">&nbsp;&nbsp;
+        <a class="navbar-brand" href="#">VSU</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-md-2">
+                <li class="nav-item active mr-md-4">
+                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-md-2">
+                    <a class="nav-link" href="#">ABOUT US</a>
+                </li>
+                <li class="nav-item mr-md-2">
+                    <a class="nav-link" href="#">TRINING</a>
+                </li>
+                <li class="nav-item mr-md-2">
+                    <a class="nav-link" href="#">COLLEGE</a>
+                </li>
+                <li class="nav-item mr-md-2">
+                    <a class="nav-link" href="#">AWARDS</a>
+                </li>
+                <li class="nav-item mr-md-2">
+                    <a class="nav-link" href="#">GRADEPOINTS</a>
+                </li>
+                <li class="nav-item mr-md-2">
+                    <a class="nav-link" href="#">PROGRAMS</a>
+                </li>
+                <li class="nav-item mr-md-2">
+                    <a class="nav-link" href="#">ENQUIRY</a>
+                </li>
+                <li class="nav-item mr-md-2">
+                    <a class="nav-link" href="#">CONTACTUS</a>
+                </li>
+
+                <li class="nav-item mr-md-2">
+                    <a class="nav-link" href="#">LOGIN</a>
+                </li>
+                <li class="nav-item mr-md-2">
+                    <a class="nav-link" href="#">LOGOUT</a>
+                </li>
+            
+               
+            </ul>
+
+        </div>
+    </nav>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12">
+                <h1>WELCOME TO VSU ACCADAMY OF GRATINING COLLEGE SYSTEM</h1>
+                <h3>COMPLETLY COLLEGE RANKING SYSTEM......!</h3>
+                <hr id="line">
+                <button type="button" class="btn btn-danger"><i class="fas fa-chalkboard-teacher"></i></i>&nbsp;&nbsp;<small>THINK BIG</small></button>
+
+            </div>
+            
+            
+        </div> 
+      
+    </div>
+    <!-- <img src="{% static 'images/offer.gif' %}" class="offer"> -->
+    <!-- <marquee>
+            <img src="images/nth1 (3).jpeg"></marquee>-->
+</body>
+
+</html>
